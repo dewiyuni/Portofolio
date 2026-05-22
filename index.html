@@ -21,7 +21,7 @@
               <li><a href="#skills">skills</a></li>
               <li><a href="#contact">contact</a></li>
               <li>
-                <a href="/resume.pdf" target="_blank">
+                <a href="#" target="_blank">
                   <button class="btn">Resume</button>
                 </a>
               </li>
@@ -33,33 +33,54 @@
             <div class="line-3"></div>
           </div>
         </div>
+        <!-- hero -->
         <section id="hero">
           <div class="hero-left">
             <h3 class="pre-title">PORTOFOLIO</h3>
             <h1 class="hero-name">Dewi <span>Yuni Zainah</span></h1>
             <p>
-              Fresh Graduate Sistem Informasi | UI/UX Designer | Web
-              Development.
-              <br />
-              Mahasiswa/Lulusan Sistem Informasi yang memiliki ketertarikan pada
-              pengembangan sistem berbasis web dan analisis sistem. Terbiasa
-              mengerjakan project website, sistem kasir, dan aplikasi sederhana
-              mulai dari analisis kebutuhan, perancangan database, hingga
-              implementasi dan pengujian sistem.
+              Fresh Graduate Sistem Informasi | UI/UX Designer | Data Management
+              & Administration | Web Development.
+              <br /><br />
+              Lulusan S1 Sistem Informasi (Desember 2025) dengan keahlian
+              pengolahan data, manajemen database, dan digitalisasi dokumen
+              kantor. Berfokus pada optimalisasi data dan desain aplikasi, bukan
+              pada infrastruktur hardware atau jaringan komputer. Siap
+              berkontribusi secara profesional untuk meningkatkan efisiensi tata
+              kelola administrasi, pengolahan data operasional, serta manajemen
+              sistem digital di berbagai instansi maupun perusahaan secara
+              teliti.
             </p>
+
             <div class="actions">
-              <a href="assets/cv-dewi.pdf" download class="btn-primary"
-                >📄 Download CV</a
+              <!-- PERBAIKAN: Menambahkan nilai pada atribut download agar file otomatis terunduh dengan rapi -->
+              <a
+                href="assets/cv-dewi.pdf"
+                download="CV_Dewi_Yuni_Zainah.pdf"
+                class="btn-primary"
               >
-              <a href="mailto:dewiyunizainah@gmail.com" class="btn-outline"
-                >✉️ Hubungi Saya</a
-              >
+                📄 Download CV
+              </a>
+              <a href="#contact" class="btn-outline">✉️ Hubungi Saya</a>
             </div>
           </div>
           <div class="hero-right">
-            <img src="./images/hero.svg" alt="hero" />
+            <!-- PERBAIKAN SAKTI: Memaksa gambar menjadi kotak persegi kecil langsung di HTML -->
+            <img
+              src="./images/foto.jpeg"
+              alt="Dewi Yuni Zainah"
+              style="
+                width: 320px !important;
+                height: 400px !important;
+                object-fit: cover !important;
+                object-position: top !important;
+                border-radius: 24px;
+                box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.08);
+              "
+            />
           </div>
         </section>
+        <!-- end hero -->
       </div>
     </header>
     <!-- end header -->
@@ -84,10 +105,11 @@
                 />
               </svg>
             </div>
-            <h4>UI/UX Design</h4>
+            <h4>UI/UX & System Analysis</h4>
             <p>
-              Desain antarmuka aplikasi berbasis web/mobile menggunakan Figma
-              dan prinsip UX yang berfokus pada kemudahan pengguna.
+              Menganalisis kebutuhan sistem, menyusun dokumentasi user flow, dan
+              merancang antarmuka aplikasi web/mobile yang fokus pada kemudahan
+              pengguna awam.
             </p>
           </div>
 
@@ -104,9 +126,10 @@
                 />
               </svg>
             </div>
-            <h4>Web Development</h4>
+            <h4>Web & Content Management</h4>
             <p>
-              Pengalaman membuat sistem informasi berbasis web sederhana dengan
+              Membuat, memelihara, dan mengelola konten serta administrasi
+              sistem informasi berbasis web sederhana menggunakan struktur dasar
               HTML, CSS, PHP, dan MySQL.
             </p>
           </div>
@@ -124,30 +147,11 @@
                 />
               </svg>
             </div>
-            <h4>Data Analysis & Visualization</h4>
+            <h4>Data Management & Admin</h4>
             <p>
-              Analisis data dan pembuatan laporan menggunakan Excel & Google
-              Data Studio untuk mendukung pengambilan keputusan.
-            </p>
-          </div>
-
-          <div class="service">
-            <div class="service-icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  d="M3 20c.552 0 1 .449 1 1s-.448 1-1 1-1-.449-1-1 .448-1 1-1zm0-2c-1.656 0-3 1.343-3 3s1.344 3 3 3 3-1.343 3-3-1.344-3-3-3zm9 2c.552 0 1 .449 1 1s-.448 1-1 1-1-.449-1-1 .448-1 1-1zm0-2c-1.656 0-3 1.343-3 3s1.344 3 3 3 3-1.343 3-3-1.344-3-3-3zm0-18c-1.656 0-3 1.343-3 3s1.344 3 3 3 3-1.343 3-3-1.344-3-3-3zm9 20c.552 0 1 .449 1 1s-.448 1-1 1-1-.449-1-1 .448-1 1-1zm0-2c-1.656 0-3 1.343-3 3s1.344 3 3 3 3-1.343 3-3-1.344-3-3-3zm-1.577-1.721l-6.423-5.028v-3.352c-.323.066-.658.101-1 .101s-.677-.035-1-.101v3.352l-6.424 5.028c.695.233 1.323.602 1.844 1.093l5.58-4.372 5.579 4.373c.522-.492 1.15-.861 1.844-1.094z"
-                />
-              </svg>
-            </div>
-            <h4>System Analysis</h4>
-            <p>
-              Menyusun kebutuhan sistem, membuat flowchart, dan dokumentasi
-              untuk pengembangan aplikasi.
+              Pengolahan data entry, pelaporan berkala menggunakan Microsoft
+              Excel (VLOOKUP/Pivot Table), serta pengelolaan database dan arsip
+              digital kantor secara akurat.
             </p>
           </div>
         </div>
@@ -399,7 +403,7 @@
                 <div class="portofolio-links">
                   <!-- Video Demo -->
                   <a
-                    href=""
+                    href="#"
                     class="portofolio-link"
                     target="_blank"
                     aria-label="Video Demo"
@@ -494,7 +498,7 @@
                 <div class="portofolio-links">
                   <!-- Video Demo -->
                   <a
-                    href=""
+                    href="#"
                     class="portofolio-link"
                     target="_blank"
                     aria-label="Video Demo"
@@ -590,7 +594,7 @@
                 <div class="portofolio-links">
                   <!-- Video Demo -->
                   <a
-                    href=""
+                    href="#"
                     class="portofolio-link"
                     target="_blank"
                     aria-label="Video Demo"
@@ -691,7 +695,7 @@
                 <div class="portofolio-links">
                   <!-- Video Demo -->
                   <a
-                    href=""
+                    href="#"
                     class="portofolio-link"
                     target="_blank"
                     aria-label="Video Demo"
@@ -796,10 +800,10 @@
               </div>
               <div class="education-info">
                 <div class="education-title">
-                  Universitas Bina Sarana Informatika (UBSI)
+                  S1 Sistem Informasi (Transfer)
                 </div>
-                <p>S1 Sistem Informasi</p>
-                <h4 class="education-years">2024 – 2025</h4>
+                <p>Universitas Bina Sarana Informatika</p>
+                <h4 class="education-years">Lulus Desember 2025</h4>
               </div>
             </div>
             <div class="education">
@@ -807,11 +811,9 @@
                 <div></div>
               </div>
               <div class="education-info">
-                <div class="education-title">
-                  Universitas Bina Sarana Informatika (UBSI)
-                </div>
-                <p>D3 Sistem Informasi</p>
-                <h4 class="education-years">2021 – 2024</h4>
+                <div class="education-title">D3 Sistem Informasi</div>
+                <p>Universitas Bina Sarana Informatika Yogyakarta</p>
+                <h4 class="education-years">Lulus 2024</h4>
               </div>
             </div>
             <div class="education">
@@ -820,8 +822,8 @@
               </div>
               <div class="education-info">
                 <div class="education-title">SMK Negeri 1 Pengasih</div>
-                <p>Multimedia</p>
-                <h4 class="education-years">2018 - 2021</h4>
+                <p>Jurusan Multimedia</p>
+                <h4 class="education-years">Lulus 2021</h4>
               </div>
             </div>
           </div>
@@ -832,10 +834,14 @@
                 <h3>Skills (Technical)</h3>
                 <ul>
                   <li>Programming: <span>HTML, CSS, JavaScript, PHP</span></li>
-                  <li>Database: <span>MySQL</span></li>
-                  <li>Design: <span>Figma</span></li>
+                  <li>Database: <span>MySQL & Basis Data Dasar</span></li>
+                  <li>Design: <span>Figma, Canva, Git</span></li>
                   <li>
-                    Tools: <span>Git, Microsoft Excel, Google Data Studio</span>
+                    Administration:
+                    <span
+                      >Microsoft Excel (VLOOKUP/Pivot Table), Google Workspace,
+                      Google Data Studio</span
+                    >
                   </li>
                 </ul>
               </div>
@@ -844,10 +850,10 @@
               <div class="skills-group">
                 <h3>Soft Skills</h3>
                 <ul>
+                  <li>Ketelitian & Validasi Data</li>
                   <li>Problem Solving</li>
                   <li>Communication</li>
-                  <li>Time Management</li>
-                  <li>Teamwork</li>
+                  <li>Time Management & Teamwork</li>
                 </ul>
               </div>
             </div>
